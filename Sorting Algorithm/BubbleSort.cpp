@@ -34,7 +34,7 @@ int main(){
         cin>>arr[i];
     }
     BubbleSort(arr, size);
-    cout<<"Sorted array: "<<endl;
+    cout<<"Sorted array: ";
     for(int i=0;i<size;i++){
         cout<<arr[i]<<" ";
     }
